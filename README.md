@@ -13,3 +13,14 @@ Also export your API key to connect to LLM can also be done via `.env`
 OPENROUTER_API_KEY=""
 ```
 
+# Terminologies
+`Chat Models` The actual LLM\
+`Prompt Templates` To be injected into prompt for structured output for tools etc.
+`Output Parser` Outputs given in a specific format to be used by LLM or tool or agent.
+`Retrievers` Perform RAG and fetch relevent context
+`Tool` Functions an LLm can execute
+
+# Methods of Running
+`.invoke()` runs it once
+`.batch()` Run it on multiple inputs at once
+`.stream()` get token by token output (for UI)
