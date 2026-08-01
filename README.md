@@ -10,7 +10,7 @@ pip install langchain Deepagents langchain-openrouter
 ```
 Also export your API key to connect to LLM can also be done via `.env`
 ```bash
-OPENROUTER_API_KEY=""
+OPENROUTER_API_KEY="YOUR_API_KEY"
 ```
 
 # Terminologies
@@ -24,3 +24,6 @@ OPENROUTER_API_KEY=""
 `.invoke()` runs it once
 `.batch()` Run it on multiple inputs at once
 `.stream()` get token by token output (for UI)
+
+# Files & Notes
+`FirstChain` is the first simple chain I implemented to learn syntax of langchain
